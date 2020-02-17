@@ -11,7 +11,7 @@ adverbs = ('remarkably', 'enormously', 'substantially', 'significantly',
 verbs = ('accelerates', 'improves', 'enhances', 'revamps', 'boosts')
 
 def sample(l, n = 1):
-    result = random.sample(l, )  #Broke the code by removing the "n" in (1, n)
+    result = random.sample(l, n)  # Replaced the "n" in (1, n)  -- i.e. repairing the broken code
     if n == 1:
         return result[0]
     return result
